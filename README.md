@@ -1,7 +1,7 @@
 Showdown's Table Extension
 ==========================
 
-[![Build Status](https://travis-ci.org/showdownjs/table-extension)](https://travis-ci.org/showdownjs/table-extension.svg) [![npm version](https://badge.fury.io/js/showdown-table.svg)](http://badge.fury.io/js/showdown-table) [![npm version](https://badge.fury.io/bo/showdown-table.svg)](http://badge.fury.io/bo/showdown-table) 
+[![Build Status](https://travis-ci.org/showdownjs/table-extension.svg)](https://travis-ci.org/showdownjs/table-extension) [![npm version](https://badge.fury.io/js/showdown-table.svg)](http://badge.fury.io/js/showdown-table) [![npm version](https://badge.fury.io/bo/showdown-table.svg)](http://badge.fury.io/bo/showdown-table) 
 
 ------
 
