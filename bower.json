@@ -21,6 +21,9 @@
     "web": "https://github.com/showdownjs/table-extension"
   },
   "main": ["dist/showdown-table.js"],
+  "dependencies": {
+    "showdown": "^0.3.4"
+  },
   "ignore": [
     "src/",
     "test/",
