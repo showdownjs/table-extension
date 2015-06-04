@@ -37,12 +37,12 @@ You can also [download the latest release zip or tarball](https://github.com/sho
 
 After including the extension in your application, you just need to enable it in showdown.
 
-    var converter = new Showdown.converter({extensions: ['table']});
+    var converter = new showdown.Converter({extensions: ['table']});
 
 ## Example
 
 ```javascript
-var converter = new Showdown.converter({extensions: ['table']}),
+var converter = new showdown.Converter({extensions: ['table']}),
     input = '| Col 1   | Col 2                                              |' +
             '|======== |====================================================|' +
             '|**bold** | ![Valid XHTML] (http://w3.org/Icons/valid-xhtml10) |' +
@@ -72,4 +72,3 @@ This should output the equivalent to:
 
 ## License
 These files are distributed under BSD license. For more information, please check the [LICENSE file](https://github.com/showdownjs/table-extension/blob/master/LICENSE) in the source code.
-

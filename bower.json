@@ -2,7 +2,7 @@
   "name": "showdown-table",
   "description": "Add markdown table favor to showdown",
   "homepage": "https://github.com/showdownjs/table-extension",
-  "license": "BSD",
+  "license": "BSD-2-Clause",
   "authors": [
     "Estevão Santos (https://github.com/tivie)",
     "Pascal Deschênes (https://github.com/pdeschen)",
@@ -22,7 +22,7 @@
   },
   "main": ["dist/showdown-table.js"],
   "dependencies": {
-    "showdown": "^0.3.4"
+    "showdown": "1.0.x"
   },
   "ignore": [
     "src/",

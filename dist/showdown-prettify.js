@@ -1,3 +1,4 @@
+/*! showdown-prettify 04-06-2015 */
 /*
  * Basic table support with re-entrant parsing, where cell content
  * can also specify markdown.
@@ -61,7 +62,6 @@
       var i = 0, lines = text.split('\n'), line, hs, rows, out = [];
       for (i; i < lines.length; i += 1) {
         line = lines[i];
-        // looks like a table heading
         if (line.trim().match(/^[|]{1}.*[|]{1}$/)) {
           line = line.trim();
           var tbl = [];
@@ -70,7 +70,6 @@
           tbl.push(tables.thead.apply(this, hs));
           line = lines[++i];
           if (!line.trim().match(/^[|]{1}[-=|: ]+[|]{1}$/)) {
-            // not a table rolling back
             line = lines[--i];
           } else {
             line = lines[++i];
@@ -82,7 +81,6 @@
             }
             tbl.push('</tbody>');
             tbl.push('</table>');
-            // we are done with this table and we move along
             out.push(tbl.join('\n'));
             continue;
           }
@@ -98,13 +96,12 @@
       }
     ];
   };
-
-  // Client-side export
   if (typeof window !== 'undefined' && window.showdown && window.showdown.extensions) {
     window.showdown.extensions.table = table;
   }
-  // Server-side export
   if (typeof module !== 'undefined') {
     module.exports = table;
   }
 }());
+
+//# sourceMappingURL=showdown-prettify.js.map
