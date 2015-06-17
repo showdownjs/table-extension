@@ -1,3 +1,10 @@
+<a name"1.0.1"></a>
+### 1.0.1 (2015-06-17)
+
+#### Bug Fixes
+
+* **dist**: fix wrong names in distribution files
+
 <a name"1.0.0"></a>
 ## 1.0.0 (2015-06-04)
 
