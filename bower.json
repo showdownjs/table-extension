@@ -22,7 +22,7 @@
   },
   "main": ["dist/showdown-table.js"],
   "dependencies": {
-    "showdown": "1.0.x"
+    "showdown": "^1.0.0"
   },
   "ignore": [
     "src/",
