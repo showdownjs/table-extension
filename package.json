@@ -8,7 +8,7 @@
     "showdown extension",
     "tables"
   ],
-  "author": "Estev„o Soares dos Santos",
+  "author": "Estev√£o Soares dos Santos",
   "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "showdown": "1.0.x"
+    "showdown": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^2.3.0",
