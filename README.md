@@ -5,6 +5,12 @@ Showdown's Table Extension
 
 ------
 
+# IMPORTANT NOTICE
+
+As of showdown v 1.2.0, table support was moved into core as an opt-in feature making this extension obsolete.
+As such, this extension will not receive further updates.
+
+-----
 **Add markdown table flavor to [showdown](https://github.com/showdownjs/showdown)**
 
 Adds support for:
