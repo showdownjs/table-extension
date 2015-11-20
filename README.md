@@ -7,6 +7,8 @@ Showdown's Table Extension
 
 # IMPORTANT NOTICE
 
+**THIS EXTENSION IS DEPRECATED**
+
 As of showdown v 1.2.0, table support was moved into core as an opt-in feature making this extension obsolete.
 As such, this extension will not receive further updates.
 
